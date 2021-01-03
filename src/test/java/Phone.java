@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Phone {
     float screenSize;
     String model;
@@ -16,7 +18,13 @@ public class Phone {
         this.material = material;
     }
 
+ public Phone(String model, String color){
+        this.model=model;
+        this.color=color;
+ }
 
+  public Phone() {
+    }
 
     public void ring(){
         System.out.println("Ring!");
@@ -27,6 +35,10 @@ public class Phone {
 
     public void receiveCall(){
         System.out.println("Call received!");
+    }
+
+    public void vibrationMode() {
+        System.out.println("Phone vibrates!");
     }
 
     public String getColor() {
@@ -45,7 +57,8 @@ public class Phone {
         return memorySize;
     }
 
-    public float screenSize() {
-        return screenSize;
-    }
+    public void setScreenSize(float screenHeight) {screenSize=screenHeight;}
+    public float getScreenSize() {return screenSize;}
+
+
 }
