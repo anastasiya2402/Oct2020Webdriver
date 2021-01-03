@@ -1,11 +1,11 @@
-import java.sql.SQLOutput;
-
 public class Phone {
     float screenSize;
     String model;
     int memorySize;
     String color;
     String material;
+    int sizeOfimage;
+
     public Phone(String colorParameter) {
         color=colorParameter;
     }
@@ -26,6 +26,7 @@ public class Phone {
   public Phone() {
     }
 
+
     public void ring(){
         System.out.println("Ring!");
     }
@@ -40,6 +41,15 @@ public class Phone {
     public void vibrationMode() {
         System.out.println("Phone vibrates!");
     }
+
+    public void callRejected(){
+        System.out.println("Call is rejected!"); }
+
+        public void ableToConnectToNetwork(){ System.out.println("Phone gets connected to Network!"); }
+
+        public void savesContactNumber(){
+            System.out.println("Contact is saved successfully!");
+        }
 
     public String getColor() {
         return color;
@@ -57,8 +67,11 @@ public class Phone {
         return memorySize;
     }
 
-    public void setScreenSize(float screenHeight) {screenSize=screenHeight;}
+    public void setScreenSize(float screenDiagonal) {screenSize=screenDiagonal;}
     public float getScreenSize() {return screenSize;}
 
 
+    public void setSizeOfimage(int sizeOfPhoto) {
+       sizeOfimage=sizeOfPhoto; }
+        public int getSizeOfimage(){return sizeOfimage;}
 }
