@@ -1,0 +1,186 @@
+{
+    "next": "https://stage-api.newbookmodels.com/api/v1/cities/?country_code=US&cursor=cD03NDEyMDY%3D",
+    "previous": null,
+    "results": [
+        {
+            "id": "70d186e1-9bcc-4775-9696-d454081c7a78",
+            "name": "New York City",
+            "admin1_code": "NY",
+            "latitude": 40.71427,
+            "longitude": -74.00597,
+            "country_code": "US",
+            "timezone": "America/New_York"
+        },
+        {
+            "id": "127c82ef-635f-48bb-ae16-403fab6a0470",
+            "name": "Los Angeles",
+            "admin1_code": "CA",
+            "latitude": 34.05223,
+            "longitude": -118.24368,
+            "country_code": "US",
+            "timezone": "America/Los_Angeles"
+        },
+        {
+            "id": "b186d192-88f2-4e3f-884e-acfffdcb6874",
+            "name": "Chicago",
+            "admin1_code": "IL",
+            "latitude": 41.85003,
+            "longitude": -87.65005,
+            "country_code": "US",
+            "timezone": "America/Chicago"
+        },
+        {
+            "id": "42fc16ca-2c4e-4207-bc70-3384b01da02f",
+            "name": "Brooklyn",
+            "admin1_code": "NY",
+            "latitude": 40.6501,
+            "longitude": -73.94958,
+            "country_code": "US",
+            "timezone": "America/New_York"
+        },
+        {
+            "id": "e05d459e-53a2-44c5-ade1-6bec2e8040a4",
+            "name": "Borough of Queens",
+            "admin1_code": "NY",
+            "latitude": 40.68149,
+            "longitude": -73.83652,
+            "country_code": "US",
+            "timezone": "America/New_York"
+        },
+        {
+            "id": "e8f82df8-0cba-497c-bc42-d5bdc0b68814",
+            "name": "Houston",
+            "admin1_code": "TX",
+            "latitude": 29.76328,
+            "longitude": -95.36327,
+            "country_code": "US",
+            "timezone": "America/Chicago"
+        },
+        {
+            "id": "5776aaaf-d45c-4166-8310-5b849cd68026",
+            "name": "Philadelphia",
+            "admin1_code": "PA",
+            "latitude": 39.95233,
+            "longitude": -75.16379,
+            "country_code": "US",
+            "timezone": "America/New_York"
+        },
+        {
+            "id": "d3f2e770-989b-4c71-8310-5da7054b3a7b",
+            "name": "Manhattan",
+            "admin1_code": "NY",
+            "latitude": 40.78343,
+            "longitude": -73.96625,
+            "country_code": "US",
+            "timezone": "America/New_York"
+        },
+        {
+            "id": "952a47f7-6034-4cdc-9e99-0d2232f29698",
+            "name": "Phoenix",
+            "admin1_code": "AZ",
+            "latitude": 33.44838,
+            "longitude": -112.07404,
+            "country_code": "US",
+            "timezone": "America/Phoenix"
+        },
+        {
+            "id": "2b53b58c-5910-4931-92fe-9829bcc15f11",
+            "name": "The Bronx",
+            "admin1_code": "NY",
+            "latitude": 40.84985,
+            "longitude": -73.86641,
+            "country_code": "US",
+            "timezone": "America/New_York"
+        },
+        {
+            "id": "82ee5fa3-36fc-4252-8450-e071225b81af",
+            "name": "San Antonio",
+            "admin1_code": "TX",
+            "latitude": 29.42412,
+            "longitude": -98.49363,
+            "country_code": "US",
+            "timezone": "America/Chicago"
+        },
+        {
+            "id": "41218077-ec48-43a8-8b24-6dc6c440172b",
+            "name": "San Diego",
+            "admin1_code": "CA",
+            "latitude": 32.71533,
+            "longitude": -117.15726,
+            "country_code": "US",
+            "timezone": "America/Los_Angeles"
+        },
+        {
+            "id": "848e4642-7bdf-4186-8bb7-1f44e4a5c510",
+            "name": "Dallas",
+            "admin1_code": "TX",
+            "latitude": 32.78306,
+            "longitude": -96.80667,
+            "country_code": "US",
+            "timezone": "America/Chicago"
+        },
+        {
+            "id": "f7e66125-1eca-444a-af90-8e43d9e90d4a",
+            "name": "San Jose",
+            "admin1_code": "CA",
+            "latitude": 37.33939,
+            "longitude": -121.89496,
+            "country_code": "US",
+            "timezone": "America/Los_Angeles"
+        },
+        {
+            "id": "cd740ee0-5c3e-4a31-bdbb-65d69d5d59d9",
+            "name": "Indianapolis",
+            "admin1_code": "IN",
+            "latitude": 39.76838,
+            "longitude": -86.15804,
+            "country_code": "US",
+            "timezone": "America/Indiana/Indianapolis"
+        },
+        {
+            "id": "c4f591e5-e112-40b4-80c9-186d25bcb472",
+            "name": "Jacksonville",
+            "admin1_code": "FL",
+            "latitude": 30.33218,
+            "longitude": -81.65565,
+            "country_code": "US",
+            "timezone": "America/New_York"
+        },
+        {
+            "id": "95e0cd6a-a50d-4167-9544-e5579e1542b6",
+            "name": "San Francisco",
+            "admin1_code": "CA",
+            "latitude": 37.77493,
+            "longitude": -122.41942,
+            "country_code": "US",
+            "timezone": "America/Los_Angeles"
+        },
+        {
+            "id": "661c7b0a-95b5-4216-95e8-4504e33abdc6",
+            "name": "Austin",
+            "admin1_code": "TX",
+            "latitude": 30.26715,
+            "longitude": -97.74306,
+            "country_code": "US",
+            "timezone": "America/Chicago"
+        },
+        {
+            "id": "3a53d0ab-5112-42a6-8301-246b6556154e",
+            "name": "Columbus",
+            "admin1_code": "OH",
+            "latitude": 39.96118,
+            "longitude": -82.99879,
+            "country_code": "US",
+            "timezone": "America/New_York"
+        },
+        {
+            "id": "95143c6e-8421-473a-ae0a-0a5198806805",
+            "name": "Fort Worth",
+            "admin1_code": "TX",
+            "latitude": 32.72541,
+            "longitude": -97.32085,
+            "country_code": "US",
+            "timezone": "America/Chicago"
+        }
+    ]
+}
