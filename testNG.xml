@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="MySuiteFrom XML" verbose="1">
+    <test name="Google Positive Test">
+        <classes>
+            <class name="POMMozillaGoogleSearch">
+                <methods>
+                    <include name="testPerformSearchVerifyResult"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

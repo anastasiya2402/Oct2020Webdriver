@@ -12,15 +12,16 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class WindowHandlesTest {
-   private  WebDriver driver;
+    private WebDriver driver;
 
     @BeforeSuite
-    public void setUpBeforeSuite(){
+    public void setUpBeforeSuite() {
         System.setProperty("webdriver.gecko.driver", "src/test/resources/driver/macOs/geckodriver");
         driver = new FirefoxDriver();
     }
+
     @AfterSuite
-    public void setupAfterSuite(){
+    public void setupAfterSuite() {
         driver.quit();
     }
 
@@ -72,6 +73,7 @@ public class WindowHandlesTest {
     }
 
     private void verifyTitle(String expectedTitle) {
+
         Assert.assertEquals(driver.getTitle(), expectedTitle);
     }
 
