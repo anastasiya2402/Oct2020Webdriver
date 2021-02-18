@@ -43,7 +43,7 @@ public class GoogleResultsPage {
         String secondElement = arrayOfStrings[1];
         secondElement = secondElement.replace(",", "");
         int number = Integer.parseInt(secondElement);
-        boolean isLargeNumber = number < 100000;
+        boolean isLargeNumber = number > 100000;
         Assert.assertTrue(isLargeNumber);
         System.out.println(number);
 

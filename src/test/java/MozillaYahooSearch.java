@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class MozillaYahooSearch {
-    WebDriver driver;
+  public WebDriver driver;
     //1. Open Mozilla Browser
     //2. Open Yahoo
     //3. Type Query
@@ -28,8 +28,8 @@ public class MozillaYahooSearch {
     }
 
     private void submitLink() {
-        String link="portnov computer school online";
-        WebElement element= driver.findElement(By.linkText(link));
+        String link = "portnov computer school online class";
+        WebElement element = driver.findElement(By.linkText(link));
         element.click();
     }
 
@@ -42,10 +42,10 @@ public class MozillaYahooSearch {
     }
 
     private void verifyPageResults() {
-        String selector="div.mb-0 > ul:nth-child(2) > li:nth-child(2) > span:nth-child(1) > a:nth-child(1)";
-        WebElement element= driver.findElement(By.cssSelector(selector));
+        String selector = "a.ac-1st";
+        WebElement element = driver.findElement(By.cssSelector(selector));
         String text=element.getText();
-        Assert.assertEquals(text, "portnov computer school online");
+        Assert.assertEquals(text, "portnov computer school online class");
         System.out.println(text);
     }
 

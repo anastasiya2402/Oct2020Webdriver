@@ -22,6 +22,7 @@ public class MozillaGoogleSearchTest {
         typeQuery();
         submitQuery();
         waitFor(7);
+
         boolean statsDisplayed = isStatsDisplayed();
         Assert.assertTrue(statsDisplayed);
         verifySearchResults();

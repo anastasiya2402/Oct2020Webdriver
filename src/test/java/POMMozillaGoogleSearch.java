@@ -38,12 +38,5 @@ public class POMMozillaGoogleSearch extends BaseTest {
     }
 
 
-    // private void waitFor(int amountOfSeconds) {
-    //   try {
-    //       Thread.sleep(8 * 100);
-    //  } catch (InterruptedException e) {
-    //      e.printStackTrace();
-    //   }
-    // }
 
 }
